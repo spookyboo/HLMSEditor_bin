@@ -19,9 +19,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\common\*.*"; DestDir: "{app}\common\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\doc\*.*"; DestDir: "{app}\doc\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\examples\*.*"; DestDir: "{app}\examples\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\import\*.*"; DestDir: "{app}\examples\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\imageformats\*.*"; DestDir: "{app}\examples\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\platforms\*.*"; DestDir: "{app}\examples\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\import\*.*"; DestDir: "{app}\import\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\temp\*.*"; DestDir: "{app}\temp\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\imageformats\*.*"; DestDir: "{app}\bin\imageformats\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\platforms\*.*"; DestDir: "{app}\bin\platforms\"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; Copy all files under bin individually, because existing resources.cfg may not be overwritten
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\AssImpPlugin.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -58,6 +59,7 @@ Name: "{app}\common\thumbs"; Permissions: everyone-full
 Name: "{app}\bin"; Permissions: everyone-full
 Name: "{app}\examples"; Permissions: everyone-full
 Name: "{app}\import"; Permissions: everyone-full
+Name: "{app}\temp"; Permissions: everyone-full
 
 [Icons]
 Name: "{group}\HLMS Editor"; Filename: "{app}\bin\HLMSEditor.exe"; IconFilename: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\common\icons\HLMSEditor.ico"
