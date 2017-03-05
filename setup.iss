@@ -47,9 +47,11 @@ Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\Qt5
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\RenderSystem_Direct3D11.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\RenderSystem_GL3Plus.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\RenderSystem_NULL.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\resources.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion onlyifdoesntexist
+;Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\resources.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion onlyifdoesntexist
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\resources.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\resources_default.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\settings.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion onlyifdoesntexist
+;Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\settings.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion onlyifdoesntexist
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\settings.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\settings_default.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\ZipExport.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 
