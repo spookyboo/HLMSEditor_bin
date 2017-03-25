@@ -56,7 +56,7 @@ Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\set
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\ZipExport.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Dirs]
-Name: "{app}"; 
+Name: "{app}"; Permissions: everyone-full
 Name: "{app}\common\thumbs"; Permissions: everyone-full
 Name: "{app}\bin"; Permissions: everyone-full
 Name: "{app}\examples"; Permissions: everyone-full
