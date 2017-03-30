@@ -64,8 +64,8 @@ Name: "{app}\import"; Permissions: everyone-full
 Name: "{app}\temp"; Permissions: everyone-full
 
 [Icons]
-Name: "{group}\HLMS Editor"; Filename: "{app}\bin\HLMSEditor.exe"; IconFilename: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\common\icons\HLMSEditor.ico"
-Name: "{commondesktop}\HLMS Editor"; Tasks: desktopicon; Filename: "{app}\bin\HLMSEditor.exe"; IconFilename: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\common\icons\HLMSEditor.ico"
+Name: "{group}\HLMS Editor"; Filename: "{app}\bin\HLMSEditor.exe"; IconFilename: "{app}\common\icons\HLMSEditor.ico"
+Name: "{commondesktop}\HLMS Editor"; Tasks: desktopicon; Filename: "{app}\bin\HLMSEditor.exe"; IconFilename: "{app}\common\icons\HLMSEditor.ico"
 Name: "{group}\HLMS Editor\{cm:UninstallProgram,HLMS Editor}"; Filename: "{uninstallexe}"
 
 [Run]
