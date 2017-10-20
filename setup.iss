@@ -28,6 +28,7 @@ Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\pla
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\AssImpPlugin.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\assimp-vc140-mt.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\dark.qss"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\gLTFImport.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\HLMSEditor.exe"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\models.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgreHlmsPbs.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
