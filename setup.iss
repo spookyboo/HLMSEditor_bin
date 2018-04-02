@@ -35,6 +35,7 @@ Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\Ogr
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgreHlmsUnlit.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgreMain.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgreMeshLodGenerator.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgrePlanarReflections.dll"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\OgreMeshTool.exe"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\plugins.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "userdocs:\Visual Studio 2015\Projects\HLMSEditor_bin\HLMSEditor\bin\plugins_tools.cfg"; DestDir: "{app}\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
